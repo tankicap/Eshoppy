@@ -1,0 +1,17 @@
+main {
+    width: 70%;
+    margin: 3rem 15%;
+    margin-top: 12rem;
+    color: white;
+
+}
+div{
+    text-align: center;
+}
+p:first-child{
+    font-weight: bold;
+}
+p:last-child{
+    color: rgb(172, 172, 172);
+    font-size: 25px;
+}
