@@ -15,4 +15,5 @@ import { ProductComponent } from "./product/product.component";
 export class AppComponent {
   title = 'nov';
   products=Products_bd;
+
 }

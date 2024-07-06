@@ -3,14 +3,9 @@ export const Products_bd=[
         id:'1',
         name:'Netflix',
         price:'40 Euro',
-        picture:'netflix.jpg'
+        picture:'netflix1.jpg'
     },
-    {
-        id:'2',
-        name:'Adobe Stock',
-        price:'40 Euro',
-        picture:'adobe.png'
-    },
+   
     {
         id:'3',
         name:'NBA League Pass',
@@ -33,25 +28,25 @@ export const Products_bd=[
         id:'6',
         name:'Crunchyroll',
         price:'40 Euro',
-        picture:'crunchy.jpeg'
+        picture:'crunch.png'
     },
     {
         id:'7',
         name:'Disney+',
         price:'40 Euro',
-        picture:'disney.jpg'
+        picture:'disney+.jpg'
     },
     {
         id:'8',
         name:'HBO Max',
         price:'40 Euro',
-        picture:'hbo.jpg'
+        picture:'hbo-max.jpg'
     },
     {
         id:'9',
         name:'NordVPN',
         price:'40 Euro',
-        picture:'nord.jpeg'
+        picture:'NordVPN.jpeg'
     },
     {
         id:'10',
@@ -81,6 +76,6 @@ export const Products_bd=[
         id:'14',
         name:'Youtube Premium',
         price:'40 Euro',
-        picture:'youtube.jpg'
+        picture:'Yout.jpg'
     }
 ];

@@ -14,4 +14,6 @@ export class ProductComponent {
   get ImagePath(){
     return 'pictures/'+this.product.picture;
   }
+
+
 }

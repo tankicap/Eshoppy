@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-main',
   standalone: true,
@@ -8,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './main.component.css'
 })
 export class MainComponent {
+  searchTerm: string = '';
 
 }
