@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { Product } from './product.model';
-
 @Component({
   selector: 'app-product',
   standalone: true,
@@ -14,6 +13,8 @@ export class ProductComponent {
   get ImagePath(){
     return 'pictures/'+this.product.picture;
   }
+
+ 
 
 
 }

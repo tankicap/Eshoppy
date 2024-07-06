@@ -4,6 +4,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { MainComponent } from "./main/main.component";
 import {  Products_bd } from './products';
 import { ProductComponent } from "./product/product.component";
+import { Product } from './product/product.model';
 
 @Component({
     selector: 'app-root',
@@ -16,4 +17,6 @@ export class AppComponent {
   title = 'nov';
   products=Products_bd;
 
+  
+  
 }
