@@ -12,7 +12,20 @@ p:first-child{
     font-weight: bold;
 }
 p:last-child{
-    color: rgb(172, 172, 172);
+    color: white;
     font-size: 25px;
+    animation: pulse 2s infinite;
+  
 }
 
+@keyframes pulse {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
