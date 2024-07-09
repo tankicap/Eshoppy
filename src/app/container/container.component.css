@@ -1,3 +1,30 @@
 h3{
     color: white;
 }
+
+    input.form-control{
+        width:30%;
+    }
+
+    @media(max-width:1200px){
+        input.form-control{
+            width: 35%;
+        }
+    }
+/* Placeholder style for smaller screens */
+@media (max-width: 991px) {
+    input.form-control {
+      width: 50%; /* Adjust width for medium screens */
+    }
+  }
+  
+  /* Placeholder style for even smaller screens */
+  @media (max-width: 767px) {
+    input.form-control {
+      width: 100%; /* Adjust width for small screens */
+    }
+  }
+
+
+  
+  

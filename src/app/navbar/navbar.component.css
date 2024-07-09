@@ -3,3 +3,12 @@
       height: 80px; /* Пример за висина на навбарот за LG екрани */
     }
   }
+
+  li a{
+    color: rgb(16, 217, 16);
+  }
+
+  li a:hover{
+    font-weight: bold;
+    color: rgb(124, 234, 124);
+  }
