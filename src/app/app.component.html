@@ -1,8 +1,6 @@
 
 <app-navbar></app-navbar>
 <app-main></app-main>
-<app-container >
-  @for(product of products;track product.id){
-    <app-product [product]="product" class="col-sm-6 col-lg-4 col-md-4 col-xl-3"></app-product>
-  }
+<app-container id="product">
 </app-container>
+<app-footer></app-footer>
