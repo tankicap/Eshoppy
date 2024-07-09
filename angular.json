@@ -28,9 +28,11 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
             "scripts": [
+              "node_modules/aos/dist/aos.js"
             ]
           },
           "configurations": {
@@ -88,9 +90,11 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/aos/dist/aos.css",
               "src/styles.css"
             ],
             "scripts": [
+              "node_modules/aos/dist/aos.js"
             ]
           }
         }

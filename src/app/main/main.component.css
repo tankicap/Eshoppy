@@ -1,7 +1,7 @@
 main {
     width: 70%;
     margin: 3rem 15%;
-    margin-top: 12rem;
+    margin-top: 17rem;
     color: white;
 
 }
@@ -11,10 +11,16 @@ div{
 p:first-child{
     font-weight: bold;
 }
-p:last-child{
+p:last-of-type{
     color: white;
     font-size: 25px;
     animation: pulse 2s infinite;
+  
+}
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
   
 }
 
@@ -29,3 +35,4 @@ p:last-child{
       opacity: 1;
     }
   }
+
