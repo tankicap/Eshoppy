@@ -10,7 +10,27 @@
     </h3>
     <div class="row" >
         @for(product of products | filter:filterText;track product.id){
-            <app-product [product]="product" class="col-sm-6 col-lg-4 col-md-4 col-xl-3"></app-product>
-          }
+            <app-product [product]="product" class="col-sm-6 col-lg-4 col-md-4 col-xl-3"  (click)="openModal(product)"></app-product>
+        }
     </div>
 </div>
+
+
+<div id="productModal" class="modal" (click)="closeModal()">
+    <div class="modal-content">
+      <span class="close" (click)="closeModal()">&times;</span>
+      <h2>Product Details</h2>
+      <div class="product-details">
+        <div class="product-image">
+          <img [src]="ImagePath" alt="Image">
+        </div>
+        <div class="product-info">
+          <p><strong>Име на производот:</strong> {{ selectedProduct?.name }}</p>
+          <p><strong>Цена на производот:</strong> {{ selectedProduct?.price }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
