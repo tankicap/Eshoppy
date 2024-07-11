@@ -1,4 +1,12 @@
-# Nov
+# Eshoppy
+
+
+Eshoppy.mk is a website for displaying products for the online store Eshoppy.mk. This application is built with Angular for the frontend, which will later be extended with a backend.
+This application allows:
+- Viewing all available products
+- Detailed view of each product
+- Filtering products by their name
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
 
